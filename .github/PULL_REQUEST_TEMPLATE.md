@@ -1,3 +1,4 @@
+# Change Name
 <!--
   😀 Wonderful!  Thank you for opening a pull request.
 
@@ -5,7 +6,7 @@
   and (hopefully) merge of your change.
 -->
 
-### Description of change
+## Description of change
 
 <!--
   Please be clear and concise what the change is intended to do,
@@ -21,7 +22,7 @@
   close it.
 -->
 
-### Pull-Request Checklist
+## Pull-Request Checklist
 
 <!--
   Please make sure to review and check all of the following.
@@ -30,8 +31,8 @@
 -->
 
 - [ ] Code is up-to-date with the `main` branch
-- [ ] `npm run lint` passes with this change
-- [ ] `npm run test` passes with this change
+- [ ] `yarn lint` passes with this change
+- [ ] `yarn test` passes with this change
 - [ ] This pull request links relevant issues as `Fixes #0000`
 - [ ] There are new or updated unit tests validating the change
 - [ ] Documentation has been updated to reflect this change
