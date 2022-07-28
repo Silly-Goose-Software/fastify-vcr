@@ -8,7 +8,19 @@
 [![Commitizen Friendly][commitizen-img]][commitizen-url]
 [![Semantic Release][semantic-release-img]][semantic-release-url]
 
-> My awesome module
+> Record and replay HTTP requests that hit a certain route. Includes a single plugin that adds both the recorder and the admin controls.
+
+## Reasoning
+
+I've been working on quite a few webhook-based integrations with third-parties. One of the challenges is harvesting test data prior to switching stuff on. Ideally, one would want to enable the influx of webhook requests well before the rest of the implementation lands, as it'll help inform the design, the required validation, the expected workflow, etc.
+
+But I haven't found a lot of tooling around this, especially not when I'm looking for the following requirements:
+
+1. Persist HTTP requests to a certain route
+2. List persisted HTTP requests
+3. Replay a persisted HTTP request, marking it as replayed
+
+Secondly, I'd like to play with Fastify's "Everything is a plugin" philosophy. I come out of a koa/express shop prior to my current gig, and Fastify is relatively new to me.
 
 ## Install
 
